@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do Life Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="dashboard">
+    <!-- Greeting Component -->
+    <section id="greeting-section" aria-label="Greeting and time"></section>
+
+    <!-- Middle row: Timer + Tasks side by side -->
+    <div class="middle-row">
+      <section id="timer-section" aria-label="Focus timer"></section>
+      <section id="tasks-section" aria-label="Task list"></section>
+    </div>
+
+    <!-- Quick Links below timer -->
+    <section id="links-section" aria-label="Quick links"></section>
+  </div>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
